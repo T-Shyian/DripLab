@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Контакти</title>
+</head>
+<body text="brown" bgcolor=beige>
+	<a href="../index.html">Повернутися на головну сторінку</a>
+	<a href="Gallery.html">Перейти до галереї зображень</a>
+	<h2>Мої контакти</h2>
+	<hr color="brown" size="5">
+	<h4>
+		<p>Номер телефону: +503 91 234 567</p>
+		<p>Електрона адреса: funnybean@gmail.com</p>
+		<p>Якщо хочете, щоб з Вами зв'язалися, то заповніть форму нижче</p>
+		<nav>
+			<form action="/submit" method="post"> 
+				<label for="name">Ім'я:</label>
+				<input type="text" id="name" name="name" required><br><br>
+				<label for="gmail">Адреса:</label>
+				<input type="email" id="gmail" name="email" required><br><br>
+				<label for="message">Текст повідомлення:</label><br>
+				<textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+				<button type="submit">Відправити</button>
+			</form>
+		</nav>
+	</h4>
+</body>
+</html>
